@@ -147,3 +147,9 @@ bin/*
 changelog.md
 
 game_resources
+# RAGE server files mounted by docker-compose.dev.yml (never commit binaries)
+/ragemp-server
+/bin/
+/dotnet/
+/maps/
+/plugins/
